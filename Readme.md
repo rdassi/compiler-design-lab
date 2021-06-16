@@ -31,7 +31,7 @@
 
     ```c
     lex filename.l
-    yacc filename.y
-    cc lex.yy.c y.tab.h -lfl
+    yacc -d filename.y
+    cc lex.yy.c y.tab.c -ll
     ./a.out
     ```

@@ -1,11 +1,10 @@
-%{ 
-%} 
-ALPHA [A-Z a-z]
-DIGIT [0-9]
+%{
+#include "y.tab.h"
+extern int yylval;
+%}
 
 %%
-{ALPHA}({ALPHA}|{DIGIT})*  return ID;
-{DIGIT}+                   {yylval=atoi(yytext); return ID;}
-[\n \t]                    yyterminate();
-.                          return yytext[0];
+[0-9]+ {yylval=atoi(yytext); return NUMBER;}
+\n {return NL;}
+. {return yytext[0];}
 %%

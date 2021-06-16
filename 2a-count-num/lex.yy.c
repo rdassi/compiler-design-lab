@@ -1819,6 +1819,6 @@ int main()
 
  printf("Enter the Numbers\n");
  yylex();
- printf("\nThe number of positive integers=%d\nThe number of negative inetegers=%d\nThe number of negative fractions=%d\nThe number of positive fractions=%d\nthe number of zeros=%d",p,n,nf,pf,z);
+ printf("\nThe number of positive integers=%d\nThe number of negative inetegers=%d\nThe number of negative fractions=%d\nThe number of positive fractions=%d\nthe number of zeros=%d\n",p,n,nf,pf,z);
  return 0;
 }
