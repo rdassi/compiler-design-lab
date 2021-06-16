@@ -1,0 +1,21 @@
+For SEE:
+
+int addn(int a, int b)
+{   //nested for basically
+    for(){
+        for{
+
+        }
+    }
+}
+
+- just include function definition block
+Typr ID '(' OptArg ')' {}
+
+Type rules
+ID rules
+OptArg rules
+Function Call block
+Stmt list-> For Stmt
+
+and add all rules for nested for
