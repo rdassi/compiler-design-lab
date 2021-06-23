@@ -14,27 +14,27 @@ down the output in assembly code.]
 
 ## Running the Code
 
-- **Lex**
+### **Lex**
 
- 1. Write the lex program in a file and save it as filename.l
- 2. Open the terminal and navigate to the directory where you have saved filename.l
- 3. Type the following commands in the terminal:
+1. Write the lex program in a file and save it as `lexfile.l`.
+2. Open the terminal and navigate to the directory where you have saved `lexfile.l`.
+3. Type the following commands in the terminal:
 
-    ```c
-    lex filename.l
-    cc lex.yy.c -lfl
-    ./a.out
-    ```
+   ``` 
+   lex lexfile.l
+   cc lex.yy.c -lfl
+   ./a.out
+   ```
 
-- **Yacc**
+### **Yacc**
 
- 1. Write the lex program in a file and save it as lexfilename.l and yacc program in yaccfilename.y
- 2. Open the terminal and navigate to the directory where you have saved filename.l
- 3. Type the following commands in the terminal:
+1. Write the lex program in a file and save it as `lexfile.l` and yacc program in `yaccfile.y`.
+2. Open the terminal and navigate to the directory where you have saved `lexfile.l`.
+3. Type the following commands in the terminal:
 
-    ```c
-    lex filename.l
-    yacc -d filename.y
-    cc lex.yy.c y.tab.c -ll
-    ./a.out
-    ```
+   ``` 
+   lex lexfile.l
+   yacc -d yaccfile.y
+   cc lex.yy.c y.tab.c -ll
+   ./a.out
+   ```
