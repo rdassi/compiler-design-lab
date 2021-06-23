@@ -8,6 +8,9 @@
 4. Translation of the language constructs to an intermediate form (e.g. three-address code)
 5. Generation of target code (in assembly language) using compiler construction tools
 6. Code improvement and optimization using LLVM compiler
+7. Code improvement and optimization using CLANG compiler.
+8. Loop Unrolling using LLVM Compiler [For the given loop apply loop unrolling optimization technique in LLVM and write
+down the output in assembly code.]
 
 ## Running the Code
 
