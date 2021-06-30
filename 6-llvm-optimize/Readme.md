@@ -20,4 +20,4 @@ $clang binarysearch.c -S -O3 -o //output native machine code
 
 ## Output
 
-![2a-output](../loading-icon.png)
+![6-output](6-llvm-op.png)
