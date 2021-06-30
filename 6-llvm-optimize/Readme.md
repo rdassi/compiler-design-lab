@@ -8,6 +8,16 @@
 - **Step 4-** Apply optimization techniques and print the optimized assembly code.
 - **Step 5-** Justify the optimized code.
 
+## Steps to Run
+
+``` C
+$clang --help
+$clang binarysearch.c -fsyntax-only
+$clang binarysearch.c -S -emit-llvm-o //unoptimized code in a .s file
+$clang binarysearch-opt.c -S -emit-llvm-o -O3 //optimized code in a .s file
+$clang binarysearch.c -S -O3 -o //output native machine code
+```
+
 ## Output
 
 ![2a-output](../loading-icon.png)
