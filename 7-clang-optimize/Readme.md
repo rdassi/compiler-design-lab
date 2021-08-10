@@ -11,7 +11,7 @@
 ## Steps to Run
 
 ``` C
-$clang --help
+$clang --help // not required
 $clang bubblesort.c -fsyntax-only
 $clang bubblesort.c -S -emit-llvm -o <filename.ll> //unoptimized code in a .ll file
 $clang bubblesort-opt.c -S -emit-llvm -o <filename.ll> -O3 //optimized code in a .ll file
@@ -26,4 +26,4 @@ $clang bubblesort-opt.c -S -emit-llvm -o <filename.ll> -O3 //optimized code in a
 
 ## Output
 
-![7-output](7-clang-op.png)
+![7-output](7-llvm-op-bubble-sort.png)
