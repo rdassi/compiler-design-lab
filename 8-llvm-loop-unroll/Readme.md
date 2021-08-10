@@ -10,4 +10,4 @@ c[i]=a[i,j] * b[i];
 ```
 ## Output
 
-![8-output](../loading-icon.png)
+![8-output](8-llvm-op-loop-unroll.png)
